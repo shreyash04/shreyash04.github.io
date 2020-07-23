@@ -9,6 +9,14 @@
   {
     background-color:green;
   }
+  .zoom
+  {
+    transition:transform 0.5s;
+  }
+  .zoom:hover
+  {
+    transform:scale(1.1);
+  }
 
 </style>
 
@@ -32,9 +40,9 @@
 
 <table border="0" cellspacing="10" width="100%">
   <tr>
-    <td><img src="fireplace.jpg" width="100%">  </td>
-    <td><img src="washroom.jpg" width="100%">  </td>
-    <td><img src="suite.jpg" width="100%">  </td>
+    <td class="zoom"><img src="fireplace.jpg" width="100%">  </td>
+    <td class="zoom"><img src="washroom.jpg" width="100%">  </td>
+    <td class="zoom"><img src="suite.jpg" width="100%">  </td>
   </tr>
 </table>
 
